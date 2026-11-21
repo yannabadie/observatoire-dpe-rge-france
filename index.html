@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Observatoire ADEME DPE &amp; Artisans RGE — 100 Villes de France (Open Data Live)</title>
+  <meta name="description" content="Consultez gratuitement les étiquettes DPE ADEME (A à G), le taux de passoires thermiques F/G et les artisans certifiés RGE dans les 100 plus grandes villes de France ou par code postal.">
+  <link rel="canonical" href="https://yannabadie.github.io/observatoire-dpe-rge-france/">
+  <meta property="og:title" content="Observatoire ADEME DPE &amp; Artisans RGE — 100 Villes de France">
+  <meta property="og:description" content="Explorateur live ADEME DPE &amp; SIRENE RGE (100 % gratuit, données officielles ouvertes) sur 100 villes de France.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yannabadie.github.io/observatoire-dpe-rge-france/">
+  <link rel="stylesheet" href="./assets/styles.css">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "name": "Observatoire ADEME DPE & Artisans RGE — 100 Villes de France", "url": "https://yannabadie.github.io/observatoire-dpe-rge-france/", "inLanguage": "fr-FR"}, {"@type": "Dataset", "name": "Observatoire National DPE ADEME & Artisans RGE — 100 Grandes Villes", "description": "Synthèse de 5 072 430 diagnostics DPE ADEME et explorateur temps réel des entreprises certifiées RGE dans 100 villes de France.", "url": "https://yannabadie.github.io/observatoire-dpe-rge-france/", "license": "https://www.etalab.gouv.fr/licence-ouverte-open-licence/", "dateModified": "2026-11-21"}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "D'où proviennent les données DPE et RGE affichées sur l'Observatoire ?", "acceptedAnswer": {"@type": "Answer", "text": "Toutes les données proviennent en direct des APIs publiques officielles françaises (Licence Ouverte 2.0) : base ADEME dpe03existant (data.ademe.fr) pour les diagnostics énergétiques, Annuaire des Entreprises DINUM/INSEE (recherche-entreprises.api.gouv.fr?est_rge=true) pour les artisans RGE, et geo.api.gouv.fr pour les codes INSEE et postaux."}}, {"@type": "Question", "name": "Puis-je interroger n'importe quel code postal français hors des 100 villes ?", "acceptedAnswer": {"@type": "Answer", "text": "Oui ! L'explorateur live sur cette page accepte n'importe quel code postal de 5 chiffres en France métropolitaine et charge instantanément la distribution A–G ADEME, les derniers DPE publiés et les artisans certifiés RGE locaux."}}, {"@type": "Question", "name": "Quand les logements classés F et G sont-ils interdits à la location ?", "acceptedAnswer": {"@type": "Answer", "text": "Les logements classés G sont interdits à la location depuis le 1er janvier 2025, les logements classés F seront concernés au 1er janvier 2028, puis la classe E au 1er janvier 2034 (Loi Climat et Résilience)."}}]}]}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand-lockup" href="./index.html" aria-label="Observatoire DPE &amp; RGE France Accueil">
+        <span class="brand-mark" aria-hidden="true">DPE</span>
+        <span class="brand-text">
+          <span class="brand-name">Observatoire DPE &amp; RGE</span>
+          <span class="brand-sub">Open Data ADEME &amp; SIRENE · 100 Villes de France</span>
+        </span>
+      </a>
+      <nav class="header-nav" aria-label="Navigation principale">
+        <a class="nav-link" href="./index.html#explorateur-live">Explorateur Live</a>
+        <a class="nav-link" href="./villes/index.html">100 Villes</a>
+        <a class="nav-link" href="./index.html#calendrier-passoires">Loi Climat 2025–2034</a>
+        <a class="nav-link" href="https://yannabadie.github.io/facturkit-2027/metiers/" target="_blank" rel="noopener">Artisans Factur-X</a>
+        <a class="btn-nav" href="./villes/index.html">Explorer les Villes</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="eyebrow">100 % Gratuit · APIs Officielles ADEME &amp; DINUM/INSEE Live · Zéro inscription</div>
+        <h1>Observatoire DPE ADEME, passoires thermiques F/G &amp; artisans certifiés RGE en France</h1>
+        <p class="hero-lead">
+          Explorez en temps réel les <strong>Diagnostics de Performance Énergétique (DPE)</strong> officiels et trouvez les <strong>entreprises certifiées RGE</strong> pour n'importe quel code postal français ou parmi nos <strong>100 fiches villes détaillées</strong>.
+        </p>
+
+        <div class="kpi-grid">
+          <div class="kpi-card">
+            <span class="kpi-val">5 072 430</span>
+            <span class="kpi-label">DPE ADEME analysés sur les 100 grandes villes (2026-11-21)</span>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-val warn">8.8&nbsp;% (447 747)</span>
+            <span class="kpi-label">Passoires thermiques F &amp; G identifiées</span>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-val ok">100 Villes</span>
+            <span class="kpi-label">Fiches locales dédiées (14 432 504 habitants couverts)</span>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-val">Live API</span>
+            <span class="kpi-label">ADEME <code>dpe03existant</code> + SIRENE <code>est_rge=true</code></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="explorateur-live" class="section section-alt">
+      <div class="container">
+        <div id="dpe-rge-explorer" class="panel" data-cp="75001" data-ademe-qs="code_postal_ban:75001" data-mode="home">
+          <h2>Explorateur LIVE par Code Postal (toute la France)</h2>
+          <p class="section-sub">Saisissez n'importe quel code postal français (5 chiffres) pour obtenir en direct la répartition ADEME A–G, les derniers diagnostics publiés et les artisans certifiés RGE locaux.</p>
+
+          <form id="exp-form" class="live-controls">
+            <div class="field">
+              <label for="exp-cp">Code postal (5 chiffres)</label>
+              <input id="exp-cp" type="text" inputmode="numeric" maxlength="5" value="75001" placeholder="Ex : 69001, 31000, 33000...">
+            </div>
+            <div class="field">
+              <label for="exp-dpe-filter">Étiquette DPE</label>
+              <select id="exp-dpe-filter">
+                <option value="all">Toutes (A–G)</option>
+                <option value="FG">Passoires thermiques (F &amp; G)</option>
+                <option value="G">Classe G uniquement</option>
+                <option value="F">Classe F uniquement</option>
+                <option value="E">Classe E uniquement</option>
+                <option value="D">Classe D</option>
+                <option value="C">Classe C</option>
+                <option value="B">Classe B</option>
+                <option value="A">Classe A</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="exp-street">Nom de rue (optionnel)</label>
+              <input id="exp-street" type="search" placeholder="Ex : Rivoli, Jean Jaurès...">
+            </div>
+            <button type="submit" class="btn-primary">Analyser ce code postal</button>
+          </form>
+
+          <p id="live-explorer-status" class="live-status">Interrogation live ADEME &amp; SIRENE RGE...</p>
+          <p id="dpe-dynamic-summary" style="font-weight:700;margin:0 0 10px;"></p>
+          <div id="dpe-dynamic-bars" class="dpe-bars" style="margin-bottom:20px;"></div>
+
+          <div class="live-grid-2">
+            <div>
+              <h3 style="margin:0 0 10px;font-size:1.05rem;">Derniers DPE ADEME sur ce code postal</h3>
+              <div class="table-wrap">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>DPE</th>
+                      <th>Adresse</th>
+                      <th>Type &amp; Surface</th>
+                      <th>Conso EP</th>
+                      <th>Date</th>
+                    </tr>
+                  </thead>
+                  <tbody id="dpe-live-tbody">
+                    <tr><td colspan="5">Chargement en direct...</td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div>
+              <h3 style="margin:0 0 10px;font-size:1.05rem;">Entreprises certifiées RGE locales</h3>
+              <p id="rge-total-summary" class="live-status" style="margin-top:0;">Interrogation SIRENE RGE...</p>
+              <div id="rge-live-cards" class="rge-list"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="live-grid-2">
+          <div class="panel">
+            <h2>Distribution agrégée DPE — Top 100 Villes</h2>
+            <p class="section-sub">Cumul officiel de 5 072 430 diagnostics ADEME sur les 100 plus grandes communes métropolitaines.</p>
+            <div class="dpe-bars">
+          <div class="dpe-bar-row"><span class="dpe-badge dpe-A">A</span><div class="bar-track"><div class="bar-fill dpe-A" style="width:1.0%"></div></div><div class="dpe-num">43 703 (0.9&nbsp;%)</div></div>
+          <div class="dpe-bar-row"><span class="dpe-badge dpe-B">B</span><div class="bar-track"><div class="bar-fill dpe-B" style="width:4.9%"></div></div><div class="dpe-num">247 141 (4.9&nbsp;%)</div></div>
+          <div class="dpe-bar-row"><span class="dpe-badge dpe-C">C</span><div class="bar-track"><div class="bar-fill dpe-C" style="width:38.0%"></div></div><div class="dpe-num">1 925 855 (38.0&nbsp;%)</div></div>
+          <div class="dpe-bar-row"><span class="dpe-badge dpe-D">D</span><div class="bar-track"><div class="bar-fill dpe-D" style="width:30.8%"></div></div><div class="dpe-num">1 563 934 (30.8&nbsp;%)</div></div>
+          <div class="dpe-bar-row"><span class="dpe-badge dpe-E">E</span><div class="bar-track"><div class="bar-fill dpe-E" style="width:16.6%"></div></div><div class="dpe-num">844 050 (16.6&nbsp;%)</div></div>
+          <div class="dpe-bar-row"><span class="dpe-badge dpe-F">F</span><div class="bar-track"><div class="bar-fill dpe-F" style="width:5.8%"></div></div><div class="dpe-num">293 166 (5.8&nbsp;%)</div></div>
+          <div class="dpe-bar-row"><span class="dpe-badge dpe-G">G</span><div class="bar-track"><div class="bar-fill dpe-G" style="width:3.0%"></div></div><div class="dpe-num">154 581 (3.0&nbsp;%)</div></div>
+            </div>
+          </div>
+          <div class="panel">
+            <h2>Top 10 taux de passoires thermiques (F &amp; G)</h2>
+            <p class="section-sub">Villes présentant la part la plus élevée de logements F/G parmi les 100 grandes villes étudiées.</p>
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr><th>Ville</th><th>Département</th><th>Total DPE</th><th>Part F/G</th></tr>
+                </thead>
+                <tbody>
+              <tr><td><a href="./villes/colombes.html"><strong>Colombes</strong> (92700)</a></td><td>Hauts-de-Seine (92)</td><td>15 640</td><td style="color:#b91c1c;font-weight:700;">24.2&nbsp;% (3 789)</td></tr>
+              <tr><td><a href="./villes/neuilly-sur-seine.html"><strong>Neuilly-sur-Seine</strong> (92200)</a></td><td>Hauts-de-Seine (92)</td><td>18 743</td><td style="color:#b91c1c;font-weight:700;">22.6&nbsp;% (4 229)</td></tr>
+              <tr><td><a href="./villes/saint-maur-des-fosses.html"><strong>Saint-Maur-des-Fossés</strong> (94100)</a></td><td>Val-de-Marne (94)</td><td>17 766</td><td style="color:#b91c1c;font-weight:700;">22.0&nbsp;% (3 907)</td></tr>
+              <tr><td><a href="./villes/drancy.html"><strong>Drancy</strong> (93700)</a></td><td>Seine-Saint-Denis (93)</td><td>9 539</td><td style="color:#b91c1c;font-weight:700;">18.9&nbsp;% (1 799)</td></tr>
+              <tr><td><a href="./villes/paris.html"><strong>Paris</strong> (75001)</a></td><td>Paris (75)</td><td>864 677</td><td style="color:#b91c1c;font-weight:700;">18.3&nbsp;% (157 896)</td></tr>
+              <tr><td><a href="./villes/asnieres-sur-seine.html"><strong>Asnières-sur-Seine</strong> (92600)</a></td><td>Hauts-de-Seine (92)</td><td>27 947</td><td style="color:#b91c1c;font-weight:700;">17.4&nbsp;% (4 871)</td></tr>
+              <tr><td><a href="./villes/levallois-perret.html"><strong>Levallois-Perret</strong> (92300)</a></td><td>Hauts-de-Seine (92)</td><td>22 075</td><td style="color:#b91c1c;font-weight:700;">16.7&nbsp;% (3 682)</td></tr>
+              <tr><td><a href="./villes/versailles.html"><strong>Versailles</strong> (78000)</a></td><td>Yvelines (78)</td><td>27 788</td><td style="color:#b91c1c;font-weight:700;">16.3&nbsp;% (4 519)</td></tr>
+              <tr><td><a href="./villes/boulogne-billancourt.html"><strong>Boulogne-Billancourt</strong> (92100)</a></td><td>Hauts-de-Seine (92)</td><td>41 459</td><td style="color:#b91c1c;font-weight:700;">15.5&nbsp;% (6 419)</td></tr>
+              <tr><td><a href="./villes/maisons-alfort.html"><strong>Maisons-Alfort</strong> (94700)</a></td><td>Val-de-Marne (94)</td><td>20 670</td><td style="color:#b91c1c;font-weight:700;">15.2&nbsp;% (3 149)</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:12px;">
+          <div>
+            <h2>Accès rapide aux grandes métropoles</h2>
+            <p class="section-sub" style="margin-bottom:0;">Sélection des 12 premières villes par population — ou parcourez l'annuaire complet des 100 communes.</p>
+          </div>
+          <a class="btn-primary" href="./villes/index.html">Voir les 100 villes →</a>
+        </div>
+        <div class="city-grid">
+          <a class="city-card" href="./villes/paris.html"><strong>Paris (75001)</strong><span class="meta">Île-de-France · INSEE 75056</span><div class="stats"><span>864 677 DPE</span><span style="color:#b91c1c;">18.3 % F/G</span></div></a>
+          <a class="city-card" href="./villes/marseille.html"><strong>Marseille (13001)</strong><span class="meta">Provence-Alpes-Côte d&#x27;Azur · INSEE 13055</span><div class="stats"><span>241 006 DPE</span><span style="color:#b91c1c;">3.5 % F/G</span></div></a>
+          <a class="city-card" href="./villes/lyon.html"><strong>Lyon (69001)</strong><span class="meta">Auvergne-Rhône-Alpes · INSEE 69123</span><div class="stats"><span>218 924 DPE</span><span style="color:#b91c1c;">6.9 % F/G</span></div></a>
+          <a class="city-card" href="./villes/toulouse.html"><strong>Toulouse (31000)</strong><span class="meta">Occitanie · INSEE 31555</span><div class="stats"><span>194 925 DPE</span><span style="color:#b91c1c;">4.4 % F/G</span></div></a>
+          <a class="city-card" href="./villes/nice.html"><strong>Nice (06000)</strong><span class="meta">Provence-Alpes-Côte d&#x27;Azur · INSEE 06088</span><div class="stats"><span>98 487 DPE</span><span style="color:#b91c1c;">5.7 % F/G</span></div></a>
+          <a class="city-card" href="./villes/nantes.html"><strong>Nantes (44000)</strong><span class="meta">Pays de la Loire · INSEE 44109</span><div class="stats"><span>134 712 DPE</span><span style="color:#b91c1c;">5.5 % F/G</span></div></a>
+          <a class="city-card" href="./villes/montpellier.html"><strong>Montpellier (34000)</strong><span class="meta">Occitanie · INSEE 34172</span><div class="stats"><span>89 708 DPE</span><span style="color:#b91c1c;">2.5 % F/G</span></div></a>
+          <a class="city-card" href="./villes/strasbourg.html"><strong>Strasbourg (67000)</strong><span class="meta">Grand Est · INSEE 67482</span><div class="stats"><span>109 102 DPE</span><span style="color:#b91c1c;">6.2 % F/G</span></div></a>
+          <a class="city-card" href="./villes/bordeaux.html"><strong>Bordeaux (33000)</strong><span class="meta">Nouvelle-Aquitaine · INSEE 33063</span><div class="stats"><span>113 891 DPE</span><span style="color:#b91c1c;">6.3 % F/G</span></div></a>
+          <a class="city-card" href="./villes/lille.html"><strong>Lille (59000)</strong><span class="meta">Hauts-de-France · INSEE 59350</span><div class="stats"><span>95 080 DPE</span><span style="color:#b91c1c;">8.6 % F/G</span></div></a>
+          <a class="city-card" href="./villes/rennes.html"><strong>Rennes (35000)</strong><span class="meta">Bretagne · INSEE 35238</span><div class="stats"><span>79 584 DPE</span><span style="color:#b91c1c;">5.6 % F/G</span></div></a>
+          <a class="city-card" href="./villes/toulon.html"><strong>Toulon (83000)</strong><span class="meta">Provence-Alpes-Côte d&#x27;Azur · INSEE 83137</span><div class="stats"><span>45 699 DPE</span><span style="color:#b91c1c;">4.3 % F/G</span></div></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="calendrier-passoires" class="section">
+      <div class="container">
+        <h2>Calendrier réglementaire Loi Climat &amp; Résilience (2025–2034)</h2>
+      <div class="calendar-grid">
+        <div class="cal-box alert">
+          <strong>1er janvier 2025 — EN VIGUEUR</strong>
+          <p style="margin:6px 0 0;font-size:0.9rem;color:var(--ink-2);">Interdiction de mise en location (nouveaux baux et renouvellements) des logements classés <strong>G</strong> en France métropolitaine (Loi Climat &amp; Résilience) + gels des loyers F et G actifs depuis août 2022.</p>
+        </div>
+        <div class="cal-box soon">
+          <strong>1er janvier 2028 — ÉCHÉANCE PROCHE</strong>
+          <p style="margin:6px 0 0;font-size:0.9rem;color:var(--ink-2);">Extension de l'interdiction de location aux logements classés <strong>F</strong>. L'<strong>audit énergétique réglementaire</strong> est déjà obligatoire pour vendre une maison ou monopropriété classée <strong>E, F ou G</strong>.</p>
+        </div>
+        <div class="cal-box future">
+          <strong>1er janvier 2034 — HORIZON LONG</strong>
+          <p style="margin:6px 0 0;font-size:0.9rem;color:var(--ink-2);">Interdiction de location étendue à l'étiquette <strong>E</strong>. Anticiper via un artisan certifié <strong>RGE</strong> (Reconnu Garant de l'Environnement) conditionne l'accès à MaPrimeRénov', aux primes CEE et à l'Éco-PTZ (jusqu'à 50 000 €).</p>
+        </div>
+      </div>
+
+        <h2 style="margin-top:30px;">Aides publiques, rénovation &amp; ressources BTP</h2>
+        <div id="partner-cards-mount" class="partner-grid"></div>
+        <div class="cta-dark">
+          <div>
+            <h3>Développeurs, PropTech &amp; Artisans RGE : automatisez vos données &amp; votre conformité</h3>
+            <p>
+              Intégrez nos données ADEME DPE (avec flag <code>isThermalSieve</code>) et BODACC via notre API JSON dédiée (<code>eu-public-intelligence-worker</code>), préparez votre conformité <strong>Factur-X 2026–2027</strong> (BTP / artisans RGE), ou automatisez vos extractions à grande échelle sur Apify.
+            </p>
+          </div>
+          <div class="cta-actions">
+            <a class="btn-teal" href="https://github.com/yannabadie/observatoire-dpe-rge-france#écosystème--apis-développeurs-associés" target="_blank" rel="noopener">API ADEME DPE &amp; Open-Data →</a>
+            <a class="btn-white" href="https://yannabadie.github.io/facturkit-2027/metiers/" target="_blank" rel="noopener">Artisans RGE : Guides Factur-X →</a>
+            <a class="btn-white" href="https://apify.com/?fpr=zuvzfw" target="_blank" rel="noopener noreferrer sponsored">Actors Open-Data Apify →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <h2>Questions fréquentes sur l'Observatoire DPE &amp; RGE</h2>
+        <div class="faq-list">
+          <details><summary>D&#x27;où proviennent les données DPE et RGE affichées sur l&#x27;Observatoire ?</summary><p>Toutes les données proviennent en direct des APIs publiques officielles françaises (Licence Ouverte 2.0) : base ADEME dpe03existant (data.ademe.fr) pour les diagnostics énergétiques, Annuaire des Entreprises DINUM/INSEE (recherche-entreprises.api.gouv.fr?est_rge=true) pour les artisans RGE, et geo.api.gouv.fr pour les codes INSEE et postaux.</p></details>
+          <details><summary>Puis-je interroger n&#x27;importe quel code postal français hors des 100 villes ?</summary><p>Oui ! L&#x27;explorateur live sur cette page accepte n&#x27;importe quel code postal de 5 chiffres en France métropolitaine et charge instantanément la distribution A–G ADEME, les derniers DPE publiés et les artisans certifiés RGE locaux.</p></details>
+          <details><summary>Quand les logements classés F et G sont-ils interdits à la location ?</summary><p>Les logements classés G sont interdits à la location depuis le 1er janvier 2025, les logements classés F seront concernés au 1er janvier 2028, puis la classe E au 1er janvier 2034 (Loi Climat et Résilience).</p></details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>
+        <strong>Observatoire DPE &amp; RGE France (Open Data)</strong> · Données officielles ADEME (<code>dpe03existant</code>), DINUM/INSEE SIRENE (<code>est_rge=true</code>) &amp; IGN/Etalab ·
+        <a href="./index.html">Accueil</a> ·
+        <a href="./villes/index.html">Annuaire 100 Villes</a> ·
+        <a href="./sitemap.xml">Sitemap</a> ·
+        <a href="https://yannabadie.github.io/facturkit-2027/" target="_blank" rel="noopener">FacturKit 2027 (BTP &amp; TPE)</a> ·
+        <a href="https://apify.com/?fpr=zuvzfw" target="_blank" rel="noopener noreferrer sponsored">Apify Open-Data</a>
+      </p>
+      <p class="disclosure">Portail informatif indépendant en accès libre (Licence Ouverte v2.0). Les données live sont interrogées directement depuis votre navigateur sur les APIs publiques officielles ADEME et DINUM sans intermédiaire payant. Certains liens partenaires peuvent inclure un suivi affilié transparent (<code>rel="sponsored"</code>) sans aucun surcoût.</p>
+    </div>
+  </footer>
+  <script src="./partner-slots.js"></script>
+  <script src="./assets/dpe-rge-live.js"></script>
+</body>
+</html>

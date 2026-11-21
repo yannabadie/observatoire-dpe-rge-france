@@ -1,0 +1,2702 @@
+[
+  {
+    "slug": "paris",
+    "nom": "Paris",
+    "insee": "75056",
+    "code_postal": "75001",
+    "codes_postaux_count": 21,
+    "code_departement": "75",
+    "departement": "Paris",
+    "region": "Île-de-France",
+    "population": 2103778,
+    "ademe_qs": "code_departement_ban:75",
+    "dpe_snapshot": {
+      "total": 864677,
+      "counts": {
+        "A": 1065,
+        "B": 9977,
+        "C": 193145,
+        "D": 267521,
+        "E": 235073,
+        "F": 97185,
+        "G": 60711
+      },
+      "passoires_fg": 157896,
+      "passoires_pct": 18.3,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "marseille",
+    "nom": "Marseille",
+    "insee": "13055",
+    "code_postal": "13001",
+    "codes_postaux_count": 16,
+    "code_departement": "13",
+    "departement": "Bouches-du-Rhône",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "population": 886040,
+    "ademe_qs": "nom_commune_ban:\"Marseille\" AND code_departement_ban:13",
+    "dpe_snapshot": {
+      "total": 241006,
+      "counts": {
+        "A": 7137,
+        "B": 25456,
+        "C": 108996,
+        "D": 67673,
+        "E": 23305,
+        "F": 6467,
+        "G": 1972
+      },
+      "passoires_fg": 8439,
+      "passoires_pct": 3.5,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "lyon",
+    "nom": "Lyon",
+    "insee": "69123",
+    "code_postal": "69001",
+    "codes_postaux_count": 9,
+    "code_departement": "69",
+    "departement": "Rhône",
+    "region": "Auvergne-Rhône-Alpes",
+    "population": 519127,
+    "ademe_qs": "nom_commune_ban:\"Lyon\" AND code_departement_ban:69",
+    "dpe_snapshot": {
+      "total": 218924,
+      "counts": {
+        "A": 370,
+        "B": 7516,
+        "C": 91310,
+        "D": 71120,
+        "E": 33520,
+        "F": 9950,
+        "G": 5138
+      },
+      "passoires_fg": 15088,
+      "passoires_pct": 6.9,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "toulouse",
+    "nom": "Toulouse",
+    "insee": "31555",
+    "code_postal": "31000",
+    "codes_postaux_count": 6,
+    "code_departement": "31",
+    "departement": "Haute-Garonne",
+    "region": "Occitanie",
+    "population": 514819,
+    "ademe_qs": "code_insee_ban:31555",
+    "dpe_snapshot": {
+      "total": 194925,
+      "counts": {
+        "A": 2935,
+        "B": 16928,
+        "C": 96021,
+        "D": 49270,
+        "E": 21267,
+        "F": 6293,
+        "G": 2211
+      },
+      "passoires_fg": 8504,
+      "passoires_pct": 4.4,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "nice",
+    "nom": "Nice",
+    "insee": "06088",
+    "code_postal": "06000",
+    "codes_postaux_count": 4,
+    "code_departement": "06",
+    "departement": "Alpes-Maritimes",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "population": 357737,
+    "ademe_qs": "code_insee_ban:06088",
+    "dpe_snapshot": {
+      "total": 98487,
+      "counts": {
+        "A": 1860,
+        "B": 10165,
+        "C": 38342,
+        "D": 29107,
+        "E": 13431,
+        "F": 4402,
+        "G": 1180
+      },
+      "passoires_fg": 5582,
+      "passoires_pct": 5.7,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "nantes",
+    "nom": "Nantes",
+    "insee": "44109",
+    "code_postal": "44000",
+    "codes_postaux_count": 4,
+    "code_departement": "44",
+    "departement": "Loire-Atlantique",
+    "region": "Pays de la Loire",
+    "population": 327734,
+    "ademe_qs": "code_insee_ban:44109",
+    "dpe_snapshot": {
+      "total": 134712,
+      "counts": {
+        "A": 775,
+        "B": 7883,
+        "C": 62993,
+        "D": 40239,
+        "E": 15473,
+        "F": 5086,
+        "G": 2263
+      },
+      "passoires_fg": 7349,
+      "passoires_pct": 5.5,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "montpellier",
+    "nom": "Montpellier",
+    "insee": "34172",
+    "code_postal": "34000",
+    "codes_postaux_count": 4,
+    "code_departement": "34",
+    "departement": "Hérault",
+    "region": "Occitanie",
+    "population": 310240,
+    "ademe_qs": "code_insee_ban:34172",
+    "dpe_snapshot": {
+      "total": 89708,
+      "counts": {
+        "A": 3004,
+        "B": 12030,
+        "C": 44410,
+        "D": 20256,
+        "E": 7741,
+        "F": 1803,
+        "G": 464
+      },
+      "passoires_fg": 2267,
+      "passoires_pct": 2.5,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "strasbourg",
+    "nom": "Strasbourg",
+    "insee": "67482",
+    "code_postal": "67000",
+    "codes_postaux_count": 3,
+    "code_departement": "67",
+    "departement": "Bas-Rhin",
+    "region": "Grand Est",
+    "population": 293771,
+    "ademe_qs": "code_insee_ban:67482",
+    "dpe_snapshot": {
+      "total": 109102,
+      "counts": {
+        "A": 729,
+        "B": 5875,
+        "C": 44425,
+        "D": 34729,
+        "E": 16567,
+        "F": 4830,
+        "G": 1947
+      },
+      "passoires_fg": 6777,
+      "passoires_pct": 6.2,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "bordeaux",
+    "nom": "Bordeaux",
+    "insee": "33063",
+    "code_postal": "33000",
+    "codes_postaux_count": 5,
+    "code_departement": "33",
+    "departement": "Gironde",
+    "region": "Nouvelle-Aquitaine",
+    "population": 267991,
+    "ademe_qs": "code_insee_ban:33063",
+    "dpe_snapshot": {
+      "total": 113891,
+      "counts": {
+        "A": 1370,
+        "B": 9061,
+        "C": 46712,
+        "D": 33933,
+        "E": 15670,
+        "F": 5024,
+        "G": 2121
+      },
+      "passoires_fg": 7145,
+      "passoires_pct": 6.3,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "lille",
+    "nom": "Lille",
+    "insee": "59350",
+    "code_postal": "59000",
+    "codes_postaux_count": 5,
+    "code_departement": "59",
+    "departement": "Nord",
+    "region": "Hauts-de-France",
+    "population": 238246,
+    "ademe_qs": "code_insee_ban:59350",
+    "dpe_snapshot": {
+      "total": 95080,
+      "counts": {
+        "A": 210,
+        "B": 1465,
+        "C": 35090,
+        "D": 33837,
+        "E": 16345,
+        "F": 5473,
+        "G": 2660
+      },
+      "passoires_fg": 8133,
+      "passoires_pct": 8.6,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "rennes",
+    "nom": "Rennes",
+    "insee": "35238",
+    "code_postal": "35000",
+    "codes_postaux_count": 3,
+    "code_departement": "35",
+    "departement": "Ille-et-Vilaine",
+    "region": "Bretagne",
+    "population": 230890,
+    "ademe_qs": "code_insee_ban:35238",
+    "dpe_snapshot": {
+      "total": 79584,
+      "counts": {
+        "A": 197,
+        "B": 4682,
+        "C": 36469,
+        "D": 23392,
+        "E": 10397,
+        "F": 3112,
+        "G": 1335
+      },
+      "passoires_fg": 4447,
+      "passoires_pct": 5.6,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "toulon",
+    "nom": "Toulon",
+    "insee": "83137",
+    "code_postal": "83000",
+    "codes_postaux_count": 3,
+    "code_departement": "83",
+    "departement": "Var",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "population": 179116,
+    "ademe_qs": "code_insee_ban:83137",
+    "dpe_snapshot": {
+      "total": 45699,
+      "counts": {
+        "A": 817,
+        "B": 4303,
+        "C": 18787,
+        "D": 14400,
+        "E": 5435,
+        "F": 1565,
+        "G": 392
+      },
+      "passoires_fg": 1957,
+      "passoires_pct": 4.3,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "reims",
+    "nom": "Reims",
+    "insee": "51454",
+    "code_postal": "51100",
+    "codes_postaux_count": 1,
+    "code_departement": "51",
+    "departement": "Marne",
+    "region": "Grand Est",
+    "population": 177674,
+    "ademe_qs": "code_insee_ban:51454",
+    "dpe_snapshot": {
+      "total": 111547,
+      "counts": {
+        "A": 311,
+        "B": 4956,
+        "C": 48844,
+        "D": 33006,
+        "E": 15729,
+        "F": 4548,
+        "G": 4153
+      },
+      "passoires_fg": 8701,
+      "passoires_pct": 7.8,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "saint-etienne",
+    "nom": "Saint-Étienne",
+    "insee": "42218",
+    "code_postal": "42000",
+    "codes_postaux_count": 3,
+    "code_departement": "42",
+    "departement": "Loire",
+    "region": "Auvergne-Rhône-Alpes",
+    "population": 173136,
+    "ademe_qs": "code_insee_ban:42218",
+    "dpe_snapshot": {
+      "total": 61942,
+      "counts": {
+        "A": 73,
+        "B": 654,
+        "C": 14537,
+        "D": 25619,
+        "E": 14636,
+        "F": 4464,
+        "G": 1959
+      },
+      "passoires_fg": 6423,
+      "passoires_pct": 10.4,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "le-havre",
+    "nom": "Le Havre",
+    "insee": "76351",
+    "code_postal": "76600",
+    "codes_postaux_count": 3,
+    "code_departement": "76",
+    "departement": "Seine-Maritime",
+    "region": "Normandie",
+    "population": 166687,
+    "ademe_qs": "code_insee_ban:76351",
+    "dpe_snapshot": {
+      "total": 62886,
+      "counts": {
+        "A": 116,
+        "B": 2132,
+        "C": 21266,
+        "D": 20556,
+        "E": 12249,
+        "F": 4428,
+        "G": 2139
+      },
+      "passoires_fg": 6567,
+      "passoires_pct": 10.4,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "villeurbanne",
+    "nom": "Villeurbanne",
+    "insee": "69266",
+    "code_postal": "69100",
+    "codes_postaux_count": 1,
+    "code_departement": "69",
+    "departement": "Rhône",
+    "region": "Auvergne-Rhône-Alpes",
+    "population": 163684,
+    "ademe_qs": "code_insee_ban:69266",
+    "dpe_snapshot": {
+      "total": 53125,
+      "counts": {
+        "A": 193,
+        "B": 1875,
+        "C": 27003,
+        "D": 15307,
+        "E": 5883,
+        "F": 1876,
+        "G": 988
+      },
+      "passoires_fg": 2864,
+      "passoires_pct": 5.4,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "dijon",
+    "nom": "Dijon",
+    "insee": "21231",
+    "code_postal": "21000",
+    "codes_postaux_count": 1,
+    "code_departement": "21",
+    "departement": "Côte-d'Or",
+    "region": "Bourgogne-Franche-Comté",
+    "population": 161830,
+    "ademe_qs": "code_insee_ban:21231",
+    "dpe_snapshot": {
+      "total": 64033,
+      "counts": {
+        "A": 645,
+        "B": 4065,
+        "C": 25503,
+        "D": 18316,
+        "E": 9711,
+        "F": 3707,
+        "G": 2086
+      },
+      "passoires_fg": 5793,
+      "passoires_pct": 9.0,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "angers",
+    "nom": "Angers",
+    "insee": "49007",
+    "code_postal": "49000",
+    "codes_postaux_count": 2,
+    "code_departement": "49",
+    "departement": "Maine-et-Loire",
+    "region": "Pays de la Loire",
+    "population": 159022,
+    "ademe_qs": "code_insee_ban:49007",
+    "dpe_snapshot": {
+      "total": 67766,
+      "counts": {
+        "A": 915,
+        "B": 4210,
+        "C": 30550,
+        "D": 19670,
+        "E": 8522,
+        "F": 2661,
+        "G": 1238
+      },
+      "passoires_fg": 3899,
+      "passoires_pct": 5.8,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "grenoble",
+    "nom": "Grenoble",
+    "insee": "38185",
+    "code_postal": "38000",
+    "codes_postaux_count": 2,
+    "code_departement": "38",
+    "departement": "Isère",
+    "region": "Auvergne-Rhône-Alpes",
+    "population": 156140,
+    "ademe_qs": "code_insee_ban:38185",
+    "dpe_snapshot": {
+      "total": 58093,
+      "counts": {
+        "A": 485,
+        "B": 4061,
+        "C": 19690,
+        "D": 19376,
+        "E": 9958,
+        "F": 3123,
+        "G": 1400
+      },
+      "passoires_fg": 4523,
+      "passoires_pct": 7.8,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "nimes",
+    "nom": "Nîmes",
+    "insee": "30189",
+    "code_postal": "30000",
+    "codes_postaux_count": 2,
+    "code_departement": "30",
+    "departement": "Gard",
+    "region": "Occitanie",
+    "population": 151839,
+    "ademe_qs": "code_insee_ban:30189",
+    "dpe_snapshot": {
+      "total": 50454,
+      "counts": {
+        "A": 1259,
+        "B": 5462,
+        "C": 24299,
+        "D": 13753,
+        "E": 4250,
+        "F": 1121,
+        "G": 310
+      },
+      "passoires_fg": 1431,
+      "passoires_pct": 2.8,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "aix-en-provence",
+    "nom": "Aix-en-Provence",
+    "insee": "13001",
+    "code_postal": "13080",
+    "codes_postaux_count": 5,
+    "code_departement": "13",
+    "departement": "Bouches-du-Rhône",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "population": 149695,
+    "ademe_qs": "code_insee_ban:13001",
+    "dpe_snapshot": {
+      "total": 49581,
+      "counts": {
+        "A": 2092,
+        "B": 5945,
+        "C": 23889,
+        "D": 11649,
+        "E": 4487,
+        "F": 1208,
+        "G": 311
+      },
+      "passoires_fg": 1519,
+      "passoires_pct": 3.1,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "saint-denis",
+    "nom": "Saint-Denis",
+    "insee": "93066",
+    "code_postal": "93200",
+    "codes_postaux_count": 3,
+    "code_departement": "93",
+    "departement": "Seine-Saint-Denis",
+    "region": "Île-de-France",
+    "population": 149077,
+    "ademe_qs": "code_insee_ban:93066",
+    "dpe_snapshot": {
+      "total": 35395,
+      "counts": {
+        "A": 180,
+        "B": 1380,
+        "C": 18455,
+        "D": 8460,
+        "E": 4897,
+        "F": 1157,
+        "G": 866
+      },
+      "passoires_fg": 2023,
+      "passoires_pct": 5.7,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "clermont-ferrand",
+    "nom": "Clermont-Ferrand",
+    "insee": "63113",
+    "code_postal": "63000",
+    "codes_postaux_count": 2,
+    "code_departement": "63",
+    "departement": "Puy-de-Dôme",
+    "region": "Auvergne-Rhône-Alpes",
+    "population": 146351,
+    "ademe_qs": "code_insee_ban:63113",
+    "dpe_snapshot": {
+      "total": 56525,
+      "counts": {
+        "A": 158,
+        "B": 892,
+        "C": 20620,
+        "D": 18924,
+        "E": 10174,
+        "F": 3797,
+        "G": 1960
+      },
+      "passoires_fg": 5757,
+      "passoires_pct": 10.2,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "le-mans",
+    "nom": "Le Mans",
+    "insee": "72181",
+    "code_postal": "72000",
+    "codes_postaux_count": 2,
+    "code_departement": "72",
+    "departement": "Sarthe",
+    "region": "Pays de la Loire",
+    "population": 146249,
+    "ademe_qs": "code_insee_ban:72181",
+    "dpe_snapshot": {
+      "total": 53863,
+      "counts": {
+        "A": 133,
+        "B": 2087,
+        "C": 22698,
+        "D": 19003,
+        "E": 7369,
+        "F": 1914,
+        "G": 659
+      },
+      "passoires_fg": 2573,
+      "passoires_pct": 4.8,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "brest",
+    "nom": "Brest",
+    "insee": "29019",
+    "code_postal": "29200",
+    "codes_postaux_count": 1,
+    "code_departement": "29",
+    "departement": "Finistère",
+    "region": "Bretagne",
+    "population": 142346,
+    "ademe_qs": "code_insee_ban:29019",
+    "dpe_snapshot": {
+      "total": 44263,
+      "counts": {
+        "A": 415,
+        "B": 1506,
+        "C": 16838,
+        "D": 17240,
+        "E": 6110,
+        "F": 1603,
+        "G": 551
+      },
+      "passoires_fg": 2154,
+      "passoires_pct": 4.9,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "tours",
+    "nom": "Tours",
+    "insee": "37261",
+    "code_postal": "37000",
+    "codes_postaux_count": 3,
+    "code_departement": "37",
+    "departement": "Indre-et-Loire",
+    "region": "Centre-Val de Loire",
+    "population": 139259,
+    "ademe_qs": "code_insee_ban:37261",
+    "dpe_snapshot": {
+      "total": 67310,
+      "counts": {
+        "A": 285,
+        "B": 4046,
+        "C": 28785,
+        "D": 21302,
+        "E": 8481,
+        "F": 3044,
+        "G": 1367
+      },
+      "passoires_fg": 4411,
+      "passoires_pct": 6.6,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "amiens",
+    "nom": "Amiens",
+    "insee": "80021",
+    "code_postal": "80000",
+    "codes_postaux_count": 3,
+    "code_departement": "80",
+    "departement": "Somme",
+    "region": "Hauts-de-France",
+    "population": 136449,
+    "ademe_qs": "code_insee_ban:80021",
+    "dpe_snapshot": {
+      "total": 50170,
+      "counts": {
+        "A": 413,
+        "B": 1249,
+        "C": 21391,
+        "D": 16414,
+        "E": 7216,
+        "F": 2405,
+        "G": 1082
+      },
+      "passoires_fg": 3487,
+      "passoires_pct": 7.0,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "annecy",
+    "nom": "Annecy",
+    "insee": "74010",
+    "code_postal": "74000",
+    "codes_postaux_count": 5,
+    "code_departement": "74",
+    "departement": "Haute-Savoie",
+    "region": "Auvergne-Rhône-Alpes",
+    "population": 132117,
+    "ademe_qs": "code_insee_ban:74010",
+    "dpe_snapshot": {
+      "total": 36932,
+      "counts": {
+        "A": 135,
+        "B": 683,
+        "C": 12936,
+        "D": 12797,
+        "E": 6902,
+        "F": 2309,
+        "G": 1170
+      },
+      "passoires_fg": 3479,
+      "passoires_pct": 9.4,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "limoges",
+    "nom": "Limoges",
+    "insee": "87085",
+    "code_postal": "87000",
+    "codes_postaux_count": 3,
+    "code_departement": "87",
+    "departement": "Haute-Vienne",
+    "region": "Nouvelle-Aquitaine",
+    "population": 129937,
+    "ademe_qs": "code_insee_ban:87085",
+    "dpe_snapshot": {
+      "total": 58782,
+      "counts": {
+        "A": 434,
+        "B": 2421,
+        "C": 22427,
+        "D": 22379,
+        "E": 7871,
+        "F": 2375,
+        "G": 875
+      },
+      "passoires_fg": 3250,
+      "passoires_pct": 5.5,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "metz",
+    "nom": "Metz",
+    "insee": "57463",
+    "code_postal": "57000",
+    "codes_postaux_count": 3,
+    "code_departement": "57",
+    "departement": "Moselle",
+    "region": "Grand Est",
+    "population": 122572,
+    "ademe_qs": "code_insee_ban:57463",
+    "dpe_snapshot": {
+      "total": 41982,
+      "counts": {
+        "A": 135,
+        "B": 2275,
+        "C": 15290,
+        "D": 14433,
+        "E": 6849,
+        "F": 2148,
+        "G": 852
+      },
+      "passoires_fg": 3000,
+      "passoires_pct": 7.1,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "perpignan",
+    "nom": "Perpignan",
+    "insee": "66136",
+    "code_postal": "66000",
+    "codes_postaux_count": 2,
+    "code_departement": "66",
+    "departement": "Pyrénées-Orientales",
+    "region": "Occitanie",
+    "population": 121616,
+    "ademe_qs": "code_insee_ban:66136",
+    "dpe_snapshot": {
+      "total": 35704,
+      "counts": {
+        "A": 1347,
+        "B": 4999,
+        "C": 16292,
+        "D": 9003,
+        "E": 3097,
+        "F": 822,
+        "G": 144
+      },
+      "passoires_fg": 966,
+      "passoires_pct": 2.7,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "boulogne-billancourt",
+    "nom": "Boulogne-Billancourt",
+    "insee": "92012",
+    "code_postal": "92100",
+    "codes_postaux_count": 1,
+    "code_departement": "92",
+    "departement": "Hauts-de-Seine",
+    "region": "Île-de-France",
+    "population": 119019,
+    "ademe_qs": "code_insee_ban:92012",
+    "dpe_snapshot": {
+      "total": 41459,
+      "counts": {
+        "A": 42,
+        "B": 933,
+        "C": 10455,
+        "D": 12646,
+        "E": 10964,
+        "F": 4180,
+        "G": 2239
+      },
+      "passoires_fg": 6419,
+      "passoires_pct": 15.5,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "besancon",
+    "nom": "Besançon",
+    "insee": "25056",
+    "code_postal": "25000",
+    "codes_postaux_count": 1,
+    "code_departement": "25",
+    "departement": "Doubs",
+    "region": "Bourgogne-Franche-Comté",
+    "population": 118489,
+    "ademe_qs": "code_insee_ban:25056",
+    "dpe_snapshot": {
+      "total": 41860,
+      "counts": {
+        "A": 331,
+        "B": 1829,
+        "C": 17716,
+        "D": 14410,
+        "E": 5488,
+        "F": 1619,
+        "G": 467
+      },
+      "passoires_fg": 2086,
+      "passoires_pct": 5.0,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "rouen",
+    "nom": "Rouen",
+    "insee": "76540",
+    "code_postal": "76000",
+    "codes_postaux_count": 2,
+    "code_departement": "76",
+    "departement": "Seine-Maritime",
+    "region": "Normandie",
+    "population": 117662,
+    "ademe_qs": "code_insee_ban:76540",
+    "dpe_snapshot": {
+      "total": 61773,
+      "counts": {
+        "A": 217,
+        "B": 2332,
+        "C": 21194,
+        "D": 19781,
+        "E": 11774,
+        "F": 4020,
+        "G": 2455
+      },
+      "passoires_fg": 6475,
+      "passoires_pct": 10.5,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "orleans",
+    "nom": "Orléans",
+    "insee": "45234",
+    "code_postal": "45000",
+    "codes_postaux_count": 2,
+    "code_departement": "45",
+    "departement": "Loiret",
+    "region": "Centre-Val de Loire",
+    "population": 116357,
+    "ademe_qs": "code_insee_ban:45234",
+    "dpe_snapshot": {
+      "total": 41615,
+      "counts": {
+        "A": 87,
+        "B": 588,
+        "C": 15855,
+        "D": 14243,
+        "E": 7147,
+        "F": 2491,
+        "G": 1204
+      },
+      "passoires_fg": 3695,
+      "passoires_pct": 8.9,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "montreuil",
+    "nom": "Montreuil",
+    "insee": "93048",
+    "code_postal": "93100",
+    "codes_postaux_count": 1,
+    "code_departement": "93",
+    "departement": "Seine-Saint-Denis",
+    "region": "Île-de-France",
+    "population": 111934,
+    "ademe_qs": "code_insee_ban:93048",
+    "dpe_snapshot": {
+      "total": 35879,
+      "counts": {
+        "A": 176,
+        "B": 1487,
+        "C": 14611,
+        "D": 10441,
+        "E": 5218,
+        "F": 2335,
+        "G": 1611
+      },
+      "passoires_fg": 3946,
+      "passoires_pct": 11.0,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "caen",
+    "nom": "Caen",
+    "insee": "14118",
+    "code_postal": "14000",
+    "codes_postaux_count": 1,
+    "code_departement": "14",
+    "departement": "Calvados",
+    "region": "Normandie",
+    "population": 109400,
+    "ademe_qs": "code_insee_ban:14118",
+    "dpe_snapshot": {
+      "total": 47354,
+      "counts": {
+        "A": 352,
+        "B": 877,
+        "C": 15981,
+        "D": 17674,
+        "E": 8346,
+        "F": 2711,
+        "G": 1413
+      },
+      "passoires_fg": 4124,
+      "passoires_pct": 8.7,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "argenteuil",
+    "nom": "Argenteuil",
+    "insee": "95018",
+    "code_postal": "95100",
+    "codes_postaux_count": 1,
+    "code_departement": "95",
+    "departement": "Val-d'Oise",
+    "region": "Île-de-France",
+    "population": 106130,
+    "ademe_qs": "code_insee_ban:95018",
+    "dpe_snapshot": {
+      "total": 22839,
+      "counts": {
+        "A": 35,
+        "B": 776,
+        "C": 7102,
+        "D": 7038,
+        "E": 4993,
+        "F": 1612,
+        "G": 1283
+      },
+      "passoires_fg": 2895,
+      "passoires_pct": 12.7,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "mulhouse",
+    "nom": "Mulhouse",
+    "insee": "68224",
+    "code_postal": "68100",
+    "codes_postaux_count": 2,
+    "code_departement": "68",
+    "departement": "Haut-Rhin",
+    "region": "Grand Est",
+    "population": 104978,
+    "ademe_qs": "code_insee_ban:68224",
+    "dpe_snapshot": {
+      "total": 37512,
+      "counts": {
+        "A": 125,
+        "B": 1116,
+        "C": 11572,
+        "D": 13841,
+        "E": 7864,
+        "F": 2485,
+        "G": 509
+      },
+      "passoires_fg": 2994,
+      "passoires_pct": 8.0,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "nancy",
+    "nom": "Nancy",
+    "insee": "54395",
+    "code_postal": "54000",
+    "codes_postaux_count": 2,
+    "code_departement": "54",
+    "departement": "Meurthe-et-Moselle",
+    "region": "Grand Est",
+    "population": 103671,
+    "ademe_qs": "code_insee_ban:54395",
+    "dpe_snapshot": {
+      "total": 54814,
+      "counts": {
+        "A": 83,
+        "B": 1786,
+        "C": 21362,
+        "D": 18014,
+        "E": 9671,
+        "F": 2806,
+        "G": 1092
+      },
+      "passoires_fg": 3898,
+      "passoires_pct": 7.1,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "tourcoing",
+    "nom": "Tourcoing",
+    "insee": "59599",
+    "code_postal": "59200",
+    "codes_postaux_count": 1,
+    "code_departement": "59",
+    "departement": "Nord",
+    "region": "Hauts-de-France",
+    "population": 98772,
+    "ademe_qs": "code_insee_ban:59599",
+    "dpe_snapshot": {
+      "total": 22813,
+      "counts": {
+        "A": 51,
+        "B": 511,
+        "C": 9697,
+        "D": 6735,
+        "E": 4339,
+        "F": 1062,
+        "G": 418
+      },
+      "passoires_fg": 1480,
+      "passoires_pct": 6.5,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "roubaix",
+    "nom": "Roubaix",
+    "insee": "59512",
+    "code_postal": "59100",
+    "codes_postaux_count": 1,
+    "code_departement": "59",
+    "departement": "Nord",
+    "region": "Hauts-de-France",
+    "population": 98286,
+    "ademe_qs": "code_insee_ban:59512",
+    "dpe_snapshot": {
+      "total": 27618,
+      "counts": {
+        "A": 61,
+        "B": 1339,
+        "C": 11721,
+        "D": 8027,
+        "E": 4606,
+        "F": 1284,
+        "G": 580
+      },
+      "passoires_fg": 1864,
+      "passoires_pct": 6.7,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "nanterre",
+    "nom": "Nanterre",
+    "insee": "92050",
+    "code_postal": "92000",
+    "codes_postaux_count": 1,
+    "code_departement": "92",
+    "departement": "Hauts-de-Seine",
+    "region": "Île-de-France",
+    "population": 97783,
+    "ademe_qs": "code_insee_ban:92050",
+    "dpe_snapshot": {
+      "total": 32412,
+      "counts": {
+        "A": 90,
+        "B": 720,
+        "C": 17043,
+        "D": 8833,
+        "E": 3246,
+        "F": 1556,
+        "G": 924
+      },
+      "passoires_fg": 2480,
+      "passoires_pct": 7.7,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "vitry-sur-seine",
+    "nom": "Vitry-sur-Seine",
+    "insee": "94081",
+    "code_postal": "94400",
+    "codes_postaux_count": 1,
+    "code_departement": "94",
+    "departement": "Val-de-Marne",
+    "region": "Île-de-France",
+    "population": 93963,
+    "ademe_qs": "code_insee_ban:94081",
+    "dpe_snapshot": {
+      "total": 27491,
+      "counts": {
+        "A": 15,
+        "B": 207,
+        "C": 9254,
+        "D": 11377,
+        "E": 3913,
+        "F": 1427,
+        "G": 1298
+      },
+      "passoires_fg": 2725,
+      "passoires_pct": 9.9,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "asnieres-sur-seine",
+    "nom": "Asnières-sur-Seine",
+    "insee": "92004",
+    "code_postal": "92600",
+    "codes_postaux_count": 1,
+    "code_departement": "92",
+    "departement": "Hauts-de-Seine",
+    "region": "Île-de-France",
+    "population": 93941,
+    "ademe_qs": "code_insee_ban:92004",
+    "dpe_snapshot": {
+      "total": 27947,
+      "counts": {
+        "A": 17,
+        "B": 541,
+        "C": 7867,
+        "D": 8431,
+        "E": 6220,
+        "F": 2862,
+        "G": 2009
+      },
+      "passoires_fg": 4871,
+      "passoires_pct": 17.4,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "creteil",
+    "nom": "Créteil",
+    "insee": "94028",
+    "code_postal": "94000",
+    "codes_postaux_count": 1,
+    "code_departement": "94",
+    "departement": "Val-de-Marne",
+    "region": "Île-de-France",
+    "population": 93397,
+    "ademe_qs": "code_insee_ban:94028",
+    "dpe_snapshot": {
+      "total": 29580,
+      "counts": {
+        "A": 160,
+        "B": 1267,
+        "C": 15057,
+        "D": 8566,
+        "E": 2949,
+        "F": 1151,
+        "G": 430
+      },
+      "passoires_fg": 1581,
+      "passoires_pct": 5.3,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "avignon",
+    "nom": "Avignon",
+    "insee": "84007",
+    "code_postal": "84000",
+    "codes_postaux_count": 2,
+    "code_departement": "84",
+    "departement": "Vaucluse",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "population": 92188,
+    "ademe_qs": "code_insee_ban:84007",
+    "dpe_snapshot": {
+      "total": 29652,
+      "counts": {
+        "A": 243,
+        "B": 1394,
+        "C": 11027,
+        "D": 9318,
+        "E": 4773,
+        "F": 1875,
+        "G": 1022
+      },
+      "passoires_fg": 2897,
+      "passoires_pct": 9.8,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "colombes",
+    "nom": "Colombes",
+    "insee": "92025",
+    "code_postal": "92700",
+    "codes_postaux_count": 1,
+    "code_departement": "92",
+    "departement": "Hauts-de-Seine",
+    "region": "Île-de-France",
+    "population": 91053,
+    "ademe_qs": "code_insee_ban:92025",
+    "dpe_snapshot": {
+      "total": 15640,
+      "counts": {
+        "A": 40,
+        "B": 316,
+        "C": 4104,
+        "D": 3780,
+        "E": 3611,
+        "F": 2122,
+        "G": 1667
+      },
+      "passoires_fg": 3789,
+      "passoires_pct": 24.2,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "poitiers",
+    "nom": "Poitiers",
+    "insee": "86194",
+    "code_postal": "86000",
+    "codes_postaux_count": 1,
+    "code_departement": "86",
+    "departement": "Vienne",
+    "region": "Nouvelle-Aquitaine",
+    "population": 89916,
+    "ademe_qs": "code_insee_ban:86194",
+    "dpe_snapshot": {
+      "total": 38303,
+      "counts": {
+        "A": 263,
+        "B": 1859,
+        "C": 16789,
+        "D": 12852,
+        "E": 4596,
+        "F": 1457,
+        "G": 487
+      },
+      "passoires_fg": 1944,
+      "passoires_pct": 5.1,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "aubervilliers",
+    "nom": "Aubervilliers",
+    "insee": "93001",
+    "code_postal": "93300",
+    "codes_postaux_count": 1,
+    "code_departement": "93",
+    "departement": "Seine-Saint-Denis",
+    "region": "Île-de-France",
+    "population": 88365,
+    "ademe_qs": "code_insee_ban:93001",
+    "dpe_snapshot": {
+      "total": 23663,
+      "counts": {
+        "A": 43,
+        "B": 340,
+        "C": 8440,
+        "D": 7067,
+        "E": 4982,
+        "F": 1828,
+        "G": 963
+      },
+      "passoires_fg": 2791,
+      "passoires_pct": 11.8,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "aulnay-sous-bois",
+    "nom": "Aulnay-sous-Bois",
+    "insee": "93005",
+    "code_postal": "93600",
+    "codes_postaux_count": 1,
+    "code_departement": "93",
+    "departement": "Seine-Saint-Denis",
+    "region": "Île-de-France",
+    "population": 87599,
+    "ademe_qs": "code_insee_ban:93005",
+    "dpe_snapshot": {
+      "total": 14150,
+      "counts": {
+        "A": 17,
+        "B": 83,
+        "C": 6788,
+        "D": 3881,
+        "E": 1805,
+        "F": 887,
+        "G": 689
+      },
+      "passoires_fg": 1576,
+      "passoires_pct": 11.1,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "dunkerque",
+    "nom": "Dunkerque",
+    "insee": "59183",
+    "code_postal": "59140",
+    "codes_postaux_count": 5,
+    "code_departement": "59",
+    "departement": "Nord",
+    "region": "Hauts-de-France",
+    "population": 86263,
+    "ademe_qs": "code_insee_ban:59183",
+    "dpe_snapshot": {
+      "total": 23014,
+      "counts": {
+        "A": 172,
+        "B": 308,
+        "C": 5706,
+        "D": 9671,
+        "E": 5247,
+        "F": 1388,
+        "G": 522
+      },
+      "passoires_fg": 1910,
+      "passoires_pct": 8.3,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "versailles",
+    "nom": "Versailles",
+    "insee": "78646",
+    "code_postal": "78000",
+    "codes_postaux_count": 1,
+    "code_departement": "78",
+    "departement": "Yvelines",
+    "region": "Île-de-France",
+    "population": 84095,
+    "ademe_qs": "code_insee_ban:78646",
+    "dpe_snapshot": {
+      "total": 27788,
+      "counts": {
+        "A": 21,
+        "B": 148,
+        "C": 6664,
+        "D": 9379,
+        "E": 7057,
+        "F": 2816,
+        "G": 1703
+      },
+      "passoires_fg": 4519,
+      "passoires_pct": 16.3,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "courbevoie",
+    "nom": "Courbevoie",
+    "insee": "92026",
+    "code_postal": "92400",
+    "codes_postaux_count": 1,
+    "code_departement": "92",
+    "departement": "Hauts-de-Seine",
+    "region": "Île-de-France",
+    "population": 82902,
+    "ademe_qs": "code_insee_ban:92026",
+    "dpe_snapshot": {
+      "total": 25142,
+      "counts": {
+        "A": 38,
+        "B": 375,
+        "C": 8993,
+        "D": 7350,
+        "E": 5243,
+        "F": 2190,
+        "G": 953
+      },
+      "passoires_fg": 3143,
+      "passoires_pct": 12.5,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "rueil-malmaison",
+    "nom": "Rueil-Malmaison",
+    "insee": "92063",
+    "code_postal": "92500",
+    "codes_postaux_count": 1,
+    "code_departement": "92",
+    "departement": "Hauts-de-Seine",
+    "region": "Île-de-France",
+    "population": 82874,
+    "ademe_qs": "code_insee_ban:92063",
+    "dpe_snapshot": {
+      "total": 21749,
+      "counts": {
+        "A": 45,
+        "B": 199,
+        "C": 8458,
+        "D": 7188,
+        "E": 3779,
+        "F": 1185,
+        "G": 895
+      },
+      "passoires_fg": 2080,
+      "passoires_pct": 9.6,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "beziers",
+    "nom": "Béziers",
+    "insee": "34032",
+    "code_postal": "34500",
+    "codes_postaux_count": 1,
+    "code_departement": "34",
+    "departement": "Hérault",
+    "region": "Occitanie",
+    "population": 81545,
+    "ademe_qs": "code_insee_ban:34032",
+    "dpe_snapshot": {
+      "total": 28290,
+      "counts": {
+        "A": 1112,
+        "B": 3365,
+        "C": 12374,
+        "D": 7923,
+        "E": 2698,
+        "F": 671,
+        "G": 147
+      },
+      "passoires_fg": 818,
+      "passoires_pct": 2.9,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "pau",
+    "nom": "Pau",
+    "insee": "64445",
+    "code_postal": "64000",
+    "codes_postaux_count": 1,
+    "code_departement": "64",
+    "departement": "Pyrénées-Atlantiques",
+    "region": "Nouvelle-Aquitaine",
+    "population": 80441,
+    "ademe_qs": "code_insee_ban:64445",
+    "dpe_snapshot": {
+      "total": 35570,
+      "counts": {
+        "A": 135,
+        "B": 1975,
+        "C": 14432,
+        "D": 12383,
+        "E": 5024,
+        "F": 1296,
+        "G": 325
+      },
+      "passoires_fg": 1621,
+      "passoires_pct": 4.6,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "la-rochelle",
+    "nom": "La Rochelle",
+    "insee": "17300",
+    "code_postal": "17000",
+    "codes_postaux_count": 1,
+    "code_departement": "17",
+    "departement": "Charente-Maritime",
+    "region": "Nouvelle-Aquitaine",
+    "population": 79851,
+    "ademe_qs": "code_insee_ban:17300",
+    "dpe_snapshot": {
+      "total": 34460,
+      "counts": {
+        "A": 555,
+        "B": 2471,
+        "C": 15538,
+        "D": 10859,
+        "E": 3633,
+        "F": 963,
+        "G": 441
+      },
+      "passoires_fg": 1404,
+      "passoires_pct": 4.1,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "cherbourg-en-cotentin",
+    "nom": "Cherbourg-en-Cotentin",
+    "insee": "50129",
+    "code_postal": "50100",
+    "codes_postaux_count": 6,
+    "code_departement": "50",
+    "departement": "Manche",
+    "region": "Normandie",
+    "population": 78258,
+    "ademe_qs": "code_insee_ban:50129",
+    "dpe_snapshot": {
+      "total": 27934,
+      "counts": {
+        "A": 192,
+        "B": 1337,
+        "C": 11012,
+        "D": 10384,
+        "E": 3688,
+        "F": 925,
+        "G": 396
+      },
+      "passoires_fg": 1321,
+      "passoires_pct": 4.7,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "merignac",
+    "nom": "Mérignac",
+    "insee": "33281",
+    "code_postal": "33700",
+    "codes_postaux_count": 1,
+    "code_departement": "33",
+    "departement": "Gironde",
+    "region": "Nouvelle-Aquitaine",
+    "population": 78090,
+    "ademe_qs": "code_insee_ban:33281",
+    "dpe_snapshot": {
+      "total": 19568,
+      "counts": {
+        "A": 221,
+        "B": 773,
+        "C": 10916,
+        "D": 5457,
+        "E": 1610,
+        "F": 458,
+        "G": 133
+      },
+      "passoires_fg": 591,
+      "passoires_pct": 3.0,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "champigny-sur-marne",
+    "nom": "Champigny-sur-Marne",
+    "insee": "94017",
+    "code_postal": "94500",
+    "codes_postaux_count": 1,
+    "code_departement": "94",
+    "departement": "Val-de-Marne",
+    "region": "Île-de-France",
+    "population": 78072,
+    "ademe_qs": "code_insee_ban:94017",
+    "dpe_snapshot": {
+      "total": 23644,
+      "counts": {
+        "A": 31,
+        "B": 494,
+        "C": 8900,
+        "D": 6762,
+        "E": 4358,
+        "F": 2355,
+        "G": 744
+      },
+      "passoires_fg": 3099,
+      "passoires_pct": 13.1,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "antibes",
+    "nom": "Antibes",
+    "insee": "06004",
+    "code_postal": "06160",
+    "codes_postaux_count": 2,
+    "code_departement": "06",
+    "departement": "Alpes-Maritimes",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "population": 77637,
+    "ademe_qs": "code_insee_ban:06004",
+    "dpe_snapshot": {
+      "total": 25893,
+      "counts": {
+        "A": 669,
+        "B": 3662,
+        "C": 12212,
+        "D": 6374,
+        "E": 2204,
+        "F": 633,
+        "G": 139
+      },
+      "passoires_fg": 772,
+      "passoires_pct": 3.0,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "saint-maur-des-fosses",
+    "nom": "Saint-Maur-des-Fossés",
+    "insee": "94068",
+    "code_postal": "94100",
+    "codes_postaux_count": 2,
+    "code_departement": "94",
+    "departement": "Val-de-Marne",
+    "region": "Île-de-France",
+    "population": 76572,
+    "ademe_qs": "code_insee_ban:94068",
+    "dpe_snapshot": {
+      "total": 17766,
+      "counts": {
+        "A": 66,
+        "B": 279,
+        "C": 4071,
+        "D": 5233,
+        "E": 4210,
+        "F": 2311,
+        "G": 1596
+      },
+      "passoires_fg": 3907,
+      "passoires_pct": 22.0,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "ajaccio",
+    "nom": "Ajaccio",
+    "insee": "2A004",
+    "code_postal": "20000",
+    "codes_postaux_count": 3,
+    "code_departement": "2A",
+    "departement": "Corse-du-Sud",
+    "region": "Corse",
+    "population": 76320,
+    "ademe_qs": "code_insee_ban:2A004",
+    "dpe_snapshot": {
+      "total": 13187,
+      "counts": {
+        "A": 1401,
+        "B": 2137,
+        "C": 6187,
+        "D": 2569,
+        "E": 717,
+        "F": 149,
+        "G": 27
+      },
+      "passoires_fg": 176,
+      "passoires_pct": 1.3,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "saint-nazaire",
+    "nom": "Saint-Nazaire",
+    "insee": "44184",
+    "code_postal": "44600",
+    "codes_postaux_count": 1,
+    "code_departement": "44",
+    "departement": "Loire-Atlantique",
+    "region": "Pays de la Loire",
+    "population": 74568,
+    "ademe_qs": "code_insee_ban:44184",
+    "dpe_snapshot": {
+      "total": 24045,
+      "counts": {
+        "A": 142,
+        "B": 504,
+        "C": 10709,
+        "D": 8237,
+        "E": 3161,
+        "F": 975,
+        "G": 317
+      },
+      "passoires_fg": 1292,
+      "passoires_pct": 5.4,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "cannes",
+    "nom": "Cannes",
+    "insee": "06029",
+    "code_postal": "06150",
+    "codes_postaux_count": 2,
+    "code_departement": "06",
+    "departement": "Alpes-Maritimes",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "population": 74350,
+    "ademe_qs": "code_insee_ban:06029",
+    "dpe_snapshot": {
+      "total": 38259,
+      "counts": {
+        "A": 618,
+        "B": 4485,
+        "C": 18893,
+        "D": 9424,
+        "E": 3452,
+        "F": 1012,
+        "G": 375
+      },
+      "passoires_fg": 1387,
+      "passoires_pct": 3.6,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "noisy-le-grand",
+    "nom": "Noisy-le-Grand",
+    "insee": "93051",
+    "code_postal": "93160",
+    "codes_postaux_count": 1,
+    "code_departement": "93",
+    "departement": "Seine-Saint-Denis",
+    "region": "Île-de-France",
+    "population": 72978,
+    "ademe_qs": "code_insee_ban:93051",
+    "dpe_snapshot": {
+      "total": 17836,
+      "counts": {
+        "A": 42,
+        "B": 940,
+        "C": 9485,
+        "D": 4912,
+        "E": 1837,
+        "F": 388,
+        "G": 232
+      },
+      "passoires_fg": 620,
+      "passoires_pct": 3.5,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "drancy",
+    "nom": "Drancy",
+    "insee": "93029",
+    "code_postal": "93700",
+    "codes_postaux_count": 1,
+    "code_departement": "93",
+    "departement": "Seine-Saint-Denis",
+    "region": "Île-de-France",
+    "population": 72390,
+    "ademe_qs": "code_insee_ban:93029",
+    "dpe_snapshot": {
+      "total": 9539,
+      "counts": {
+        "A": 26,
+        "B": 239,
+        "C": 2958,
+        "D": 2500,
+        "E": 2017,
+        "F": 955,
+        "G": 844
+      },
+      "passoires_fg": 1799,
+      "passoires_pct": 18.9,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "cergy",
+    "nom": "Cergy",
+    "insee": "95127",
+    "code_postal": "95000",
+    "codes_postaux_count": 2,
+    "code_departement": "95",
+    "departement": "Val-d'Oise",
+    "region": "Île-de-France",
+    "population": 70906,
+    "ademe_qs": "code_insee_ban:95127",
+    "dpe_snapshot": {
+      "total": 22148,
+      "counts": {
+        "A": 21,
+        "B": 1693,
+        "C": 13624,
+        "D": 5215,
+        "E": 1284,
+        "F": 182,
+        "G": 129
+      },
+      "passoires_fg": 311,
+      "passoires_pct": 1.4,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "levallois-perret",
+    "nom": "Levallois-Perret",
+    "insee": "92044",
+    "code_postal": "92300",
+    "codes_postaux_count": 1,
+    "code_departement": "92",
+    "departement": "Hauts-de-Seine",
+    "region": "Île-de-France",
+    "population": 68092,
+    "ademe_qs": "code_insee_ban:92044",
+    "dpe_snapshot": {
+      "total": 22075,
+      "counts": {
+        "A": 10,
+        "B": 223,
+        "C": 8086,
+        "D": 5294,
+        "E": 4780,
+        "F": 2265,
+        "G": 1417
+      },
+      "passoires_fg": 3682,
+      "passoires_pct": 16.7,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "issy-les-moulineaux",
+    "nom": "Issy-les-Moulineaux",
+    "insee": "92040",
+    "code_postal": "92130",
+    "codes_postaux_count": 1,
+    "code_departement": "92",
+    "departement": "Hauts-de-Seine",
+    "region": "Île-de-France",
+    "population": 67669,
+    "ademe_qs": "code_insee_ban:92040",
+    "dpe_snapshot": {
+      "total": 25527,
+      "counts": {
+        "A": 86,
+        "B": 1186,
+        "C": 11910,
+        "D": 6049,
+        "E": 4127,
+        "F": 1333,
+        "G": 836
+      },
+      "passoires_fg": 2169,
+      "passoires_pct": 8.5,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "calais",
+    "nom": "Calais",
+    "insee": "62193",
+    "code_postal": "62100",
+    "codes_postaux_count": 1,
+    "code_departement": "62",
+    "departement": "Pas-de-Calais",
+    "region": "Hauts-de-France",
+    "population": 67571,
+    "ademe_qs": "code_insee_ban:62193",
+    "dpe_snapshot": {
+      "total": 13681,
+      "counts": {
+        "A": 30,
+        "B": 295,
+        "C": 4110,
+        "D": 5088,
+        "E": 2958,
+        "F": 880,
+        "G": 320
+      },
+      "passoires_fg": 1200,
+      "passoires_pct": 8.8,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "pessac",
+    "nom": "Pessac",
+    "insee": "33318",
+    "code_postal": "33600",
+    "codes_postaux_count": 1,
+    "code_departement": "33",
+    "departement": "Gironde",
+    "region": "Nouvelle-Aquitaine",
+    "population": 67339,
+    "ademe_qs": "code_insee_ban:33318",
+    "dpe_snapshot": {
+      "total": 19833,
+      "counts": {
+        "A": 500,
+        "B": 572,
+        "C": 10079,
+        "D": 6318,
+        "E": 1788,
+        "F": 463,
+        "G": 113
+      },
+      "passoires_fg": 576,
+      "passoires_pct": 2.9,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "colmar",
+    "nom": "Colmar",
+    "insee": "68066",
+    "code_postal": "68000",
+    "codes_postaux_count": 1,
+    "code_departement": "68",
+    "departement": "Haut-Rhin",
+    "region": "Grand Est",
+    "population": 66970,
+    "ademe_qs": "code_insee_ban:68066",
+    "dpe_snapshot": {
+      "total": 18856,
+      "counts": {
+        "A": 310,
+        "B": 1942,
+        "C": 7876,
+        "D": 5039,
+        "E": 2672,
+        "F": 781,
+        "G": 236
+      },
+      "passoires_fg": 1017,
+      "passoires_pct": 5.4,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "evry-courcouronnes",
+    "nom": "Évry-Courcouronnes",
+    "insee": "91228",
+    "code_postal": "91000",
+    "codes_postaux_count": 2,
+    "code_departement": "91",
+    "departement": "Essonne",
+    "region": "Île-de-France",
+    "population": 66919,
+    "ademe_qs": "code_insee_ban:91228",
+    "dpe_snapshot": {
+      "total": 16943,
+      "counts": {
+        "A": 38,
+        "B": 884,
+        "C": 7998,
+        "D": 6029,
+        "E": 1687,
+        "F": 229,
+        "G": 78
+      },
+      "passoires_fg": 307,
+      "passoires_pct": 1.8,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "venissieux",
+    "nom": "Vénissieux",
+    "insee": "69259",
+    "code_postal": "69200",
+    "codes_postaux_count": 1,
+    "code_departement": "69",
+    "departement": "Rhône",
+    "region": "Auvergne-Rhône-Alpes",
+    "population": 65502,
+    "ademe_qs": "code_insee_ban:69259",
+    "dpe_snapshot": {
+      "total": 20772,
+      "counts": {
+        "A": 21,
+        "B": 1183,
+        "C": 9620,
+        "D": 5317,
+        "E": 3899,
+        "F": 520,
+        "G": 212
+      },
+      "passoires_fg": 732,
+      "passoires_pct": 3.5,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "ivry-sur-seine",
+    "nom": "Ivry-sur-Seine",
+    "insee": "94041",
+    "code_postal": "94200",
+    "codes_postaux_count": 1,
+    "code_departement": "94",
+    "departement": "Val-de-Marne",
+    "region": "Île-de-France",
+    "population": 65064,
+    "ademe_qs": "code_insee_ban:94041",
+    "dpe_snapshot": {
+      "total": 22953,
+      "counts": {
+        "A": 35,
+        "B": 1416,
+        "C": 7084,
+        "D": 7139,
+        "E": 4631,
+        "F": 1623,
+        "G": 1025
+      },
+      "passoires_fg": 2648,
+      "passoires_pct": 11.5,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "valence",
+    "nom": "Valence",
+    "insee": "26362",
+    "code_postal": "26000",
+    "codes_postaux_count": 1,
+    "code_departement": "26",
+    "departement": "Drôme",
+    "region": "Auvergne-Rhône-Alpes",
+    "population": 64458,
+    "ademe_qs": "code_insee_ban:26362",
+    "dpe_snapshot": {
+      "total": 22007,
+      "counts": {
+        "A": 240,
+        "B": 780,
+        "C": 9264,
+        "D": 7127,
+        "E": 3190,
+        "F": 1145,
+        "G": 261
+      },
+      "passoires_fg": 1406,
+      "passoires_pct": 6.4,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "clichy",
+    "nom": "Clichy",
+    "insee": "92024",
+    "code_postal": "92110",
+    "codes_postaux_count": 1,
+    "code_departement": "92",
+    "departement": "Hauts-de-Seine",
+    "region": "Île-de-France",
+    "population": 64410,
+    "ademe_qs": "code_insee_ban:92024",
+    "dpe_snapshot": {
+      "total": 22206,
+      "counts": {
+        "A": 9,
+        "B": 584,
+        "C": 8911,
+        "D": 6560,
+        "E": 3698,
+        "F": 1501,
+        "G": 943
+      },
+      "passoires_fg": 2444,
+      "passoires_pct": 11.0,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "quimper",
+    "nom": "Quimper",
+    "insee": "29232",
+    "code_postal": "29000",
+    "codes_postaux_count": 1,
+    "code_departement": "29",
+    "departement": "Finistère",
+    "region": "Bretagne",
+    "population": 64385,
+    "ademe_qs": "code_insee_ban:29232",
+    "dpe_snapshot": {
+      "total": 19311,
+      "counts": {
+        "A": 130,
+        "B": 526,
+        "C": 8803,
+        "D": 6389,
+        "E": 2289,
+        "F": 821,
+        "G": 353
+      },
+      "passoires_fg": 1174,
+      "passoires_pct": 6.1,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "antony",
+    "nom": "Antony",
+    "insee": "92002",
+    "code_postal": "92160",
+    "codes_postaux_count": 1,
+    "code_departement": "92",
+    "departement": "Hauts-de-Seine",
+    "region": "Île-de-France",
+    "population": 64263,
+    "ademe_qs": "code_insee_ban:92002",
+    "dpe_snapshot": {
+      "total": 17572,
+      "counts": {
+        "A": 46,
+        "B": 716,
+        "C": 5355,
+        "D": 6708,
+        "E": 2701,
+        "F": 1525,
+        "G": 521
+      },
+      "passoires_fg": 2046,
+      "passoires_pct": 11.6,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "bourges",
+    "nom": "Bourges",
+    "insee": "18033",
+    "code_postal": "18000",
+    "codes_postaux_count": 1,
+    "code_departement": "18",
+    "departement": "Cher",
+    "region": "Centre-Val de Loire",
+    "population": 64186,
+    "ademe_qs": "code_insee_ban:18033",
+    "dpe_snapshot": {
+      "total": 24595,
+      "counts": {
+        "A": 218,
+        "B": 1200,
+        "C": 8183,
+        "D": 9136,
+        "E": 4161,
+        "F": 1263,
+        "G": 434
+      },
+      "passoires_fg": 1697,
+      "passoires_pct": 6.9,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "la-seyne-sur-mer",
+    "nom": "La Seyne-sur-Mer",
+    "insee": "83126",
+    "code_postal": "83500",
+    "codes_postaux_count": 1,
+    "code_departement": "83",
+    "departement": "Var",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "population": 63732,
+    "ademe_qs": "code_insee_ban:83126",
+    "dpe_snapshot": {
+      "total": 15539,
+      "counts": {
+        "A": 316,
+        "B": 2295,
+        "C": 7742,
+        "D": 3396,
+        "E": 1319,
+        "F": 391,
+        "G": 80
+      },
+      "passoires_fg": 471,
+      "passoires_pct": 3.0,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "montauban",
+    "nom": "Montauban",
+    "insee": "82121",
+    "code_postal": "82000",
+    "codes_postaux_count": 1,
+    "code_departement": "82",
+    "departement": "Tarn-et-Garonne",
+    "region": "Occitanie",
+    "population": 62945,
+    "ademe_qs": "code_insee_ban:82121",
+    "dpe_snapshot": {
+      "total": 15716,
+      "counts": {
+        "A": 449,
+        "B": 1071,
+        "C": 6210,
+        "D": 5401,
+        "E": 1837,
+        "F": 557,
+        "G": 191
+      },
+      "passoires_fg": 748,
+      "passoires_pct": 4.8,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "villeneuve-d-ascq",
+    "nom": "Villeneuve-d'Ascq",
+    "insee": "59009",
+    "code_postal": "59491",
+    "codes_postaux_count": 3,
+    "code_departement": "59",
+    "departement": "Nord",
+    "region": "Hauts-de-France",
+    "population": 62868,
+    "ademe_qs": "code_insee_ban:59009",
+    "dpe_snapshot": {
+      "total": 18348,
+      "counts": {
+        "A": 103,
+        "B": 476,
+        "C": 8437,
+        "D": 6258,
+        "E": 2259,
+        "F": 630,
+        "G": 185
+      },
+      "passoires_fg": 815,
+      "passoires_pct": 4.4,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "le-blanc-mesnil",
+    "nom": "Le Blanc-Mesnil",
+    "insee": "93007",
+    "code_postal": "93150",
+    "codes_postaux_count": 1,
+    "code_departement": "93",
+    "departement": "Seine-Saint-Denis",
+    "region": "Île-de-France",
+    "population": 62376,
+    "ademe_qs": "code_insee_ban:93007",
+    "dpe_snapshot": {
+      "total": 12083,
+      "counts": {
+        "A": 17,
+        "B": 558,
+        "C": 3991,
+        "D": 3789,
+        "E": 2888,
+        "F": 430,
+        "G": 410
+      },
+      "passoires_fg": 840,
+      "passoires_pct": 7.0,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "troyes",
+    "nom": "Troyes",
+    "insee": "10387",
+    "code_postal": "10000",
+    "codes_postaux_count": 1,
+    "code_departement": "10",
+    "departement": "Aube",
+    "region": "Grand Est",
+    "population": 62088,
+    "ademe_qs": "code_insee_ban:10387",
+    "dpe_snapshot": {
+      "total": 24498,
+      "counts": {
+        "A": 81,
+        "B": 387,
+        "C": 9329,
+        "D": 9216,
+        "E": 3632,
+        "F": 1222,
+        "G": 631
+      },
+      "passoires_fg": 1853,
+      "passoires_pct": 7.6,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "pantin",
+    "nom": "Pantin",
+    "insee": "93055",
+    "code_postal": "93500",
+    "codes_postaux_count": 1,
+    "code_departement": "93",
+    "departement": "Seine-Saint-Denis",
+    "region": "Île-de-France",
+    "population": 61929,
+    "ademe_qs": "code_insee_ban:93055",
+    "dpe_snapshot": {
+      "total": 30488,
+      "counts": {
+        "A": 103,
+        "B": 412,
+        "C": 12309,
+        "D": 8951,
+        "E": 6451,
+        "F": 1597,
+        "G": 665
+      },
+      "passoires_fg": 2262,
+      "passoires_pct": 7.4,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "villejuif",
+    "nom": "Villejuif",
+    "insee": "94076",
+    "code_postal": "94800",
+    "codes_postaux_count": 1,
+    "code_departement": "94",
+    "departement": "Val-de-Marne",
+    "region": "Île-de-France",
+    "population": 60183,
+    "ademe_qs": "code_insee_ban:94076",
+    "dpe_snapshot": {
+      "total": 18827,
+      "counts": {
+        "A": 37,
+        "B": 590,
+        "C": 6900,
+        "D": 7527,
+        "E": 2260,
+        "F": 896,
+        "G": 617
+      },
+      "passoires_fg": 1513,
+      "passoires_pct": 8.0,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "chambery",
+    "nom": "Chambéry",
+    "insee": "73065",
+    "code_postal": "73000",
+    "codes_postaux_count": 1,
+    "code_departement": "73",
+    "departement": "Savoie",
+    "region": "Auvergne-Rhône-Alpes",
+    "population": 59964,
+    "ademe_qs": "code_insee_ban:73065",
+    "dpe_snapshot": {
+      "total": 20634,
+      "counts": {
+        "A": 165,
+        "B": 1926,
+        "C": 8932,
+        "D": 5609,
+        "E": 2754,
+        "F": 821,
+        "G": 427
+      },
+      "passoires_fg": 1248,
+      "passoires_pct": 6.0,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "niort",
+    "nom": "Niort",
+    "insee": "79191",
+    "code_postal": "79000",
+    "codes_postaux_count": 1,
+    "code_departement": "79",
+    "departement": "Deux-Sèvres",
+    "region": "Nouvelle-Aquitaine",
+    "population": 59854,
+    "ademe_qs": "code_insee_ban:79191",
+    "dpe_snapshot": {
+      "total": 18298,
+      "counts": {
+        "A": 134,
+        "B": 383,
+        "C": 6500,
+        "D": 7834,
+        "E": 2637,
+        "F": 594,
+        "G": 216
+      },
+      "passoires_fg": 810,
+      "passoires_pct": 4.4,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "frejus",
+    "nom": "Fréjus",
+    "insee": "83061",
+    "code_postal": "83370",
+    "codes_postaux_count": 2,
+    "code_departement": "83",
+    "departement": "Var",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "population": 59719,
+    "ademe_qs": "code_insee_ban:83061",
+    "dpe_snapshot": {
+      "total": 17536,
+      "counts": {
+        "A": 919,
+        "B": 2699,
+        "C": 8803,
+        "D": 3602,
+        "E": 1149,
+        "F": 304,
+        "G": 60
+      },
+      "passoires_fg": 364,
+      "passoires_pct": 2.1,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "neuilly-sur-seine",
+    "nom": "Neuilly-sur-Seine",
+    "insee": "92051",
+    "code_postal": "92200",
+    "codes_postaux_count": 1,
+    "code_departement": "92",
+    "departement": "Hauts-de-Seine",
+    "region": "Île-de-France",
+    "population": 59538,
+    "ademe_qs": "code_insee_ban:92051",
+    "dpe_snapshot": {
+      "total": 18743,
+      "counts": {
+        "A": 134,
+        "B": 112,
+        "C": 2147,
+        "D": 5493,
+        "E": 6628,
+        "F": 2597,
+        "G": 1632
+      },
+      "passoires_fg": 4229,
+      "passoires_pct": 22.6,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "sarcelles",
+    "nom": "Sarcelles",
+    "insee": "95585",
+    "code_postal": "95200",
+    "codes_postaux_count": 1,
+    "code_departement": "95",
+    "departement": "Val-d'Oise",
+    "region": "Île-de-France",
+    "population": 59173,
+    "ademe_qs": "code_insee_ban:95585",
+    "dpe_snapshot": {
+      "total": 18671,
+      "counts": {
+        "A": 15,
+        "B": 1305,
+        "C": 4768,
+        "D": 5641,
+        "E": 5517,
+        "F": 742,
+        "G": 683
+      },
+      "passoires_fg": 1425,
+      "passoires_pct": 7.6,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "clamart",
+    "nom": "Clamart",
+    "insee": "92023",
+    "code_postal": "92140",
+    "codes_postaux_count": 1,
+    "code_departement": "92",
+    "departement": "Hauts-de-Seine",
+    "region": "Île-de-France",
+    "population": 58576,
+    "ademe_qs": "code_insee_ban:92023",
+    "dpe_snapshot": {
+      "total": 24168,
+      "counts": {
+        "A": 52,
+        "B": 322,
+        "C": 12099,
+        "D": 7362,
+        "E": 2172,
+        "F": 1254,
+        "G": 907
+      },
+      "passoires_fg": 2161,
+      "passoires_pct": 8.9,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "lorient",
+    "nom": "Lorient",
+    "insee": "56121",
+    "code_postal": "56100",
+    "codes_postaux_count": 1,
+    "code_departement": "56",
+    "departement": "Morbihan",
+    "region": "Bretagne",
+    "population": 58329,
+    "ademe_qs": "code_insee_ban:56121",
+    "dpe_snapshot": {
+      "total": 27882,
+      "counts": {
+        "A": 194,
+        "B": 1747,
+        "C": 12257,
+        "D": 9348,
+        "E": 3188,
+        "F": 876,
+        "G": 272
+      },
+      "passoires_fg": 1148,
+      "passoires_pct": 4.1,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "narbonne",
+    "nom": "Narbonne",
+    "insee": "11262",
+    "code_postal": "11100",
+    "codes_postaux_count": 1,
+    "code_departement": "11",
+    "departement": "Aude",
+    "region": "Occitanie",
+    "population": 57587,
+    "ademe_qs": "code_insee_ban:11262",
+    "dpe_snapshot": {
+      "total": 19308,
+      "counts": {
+        "A": 1084,
+        "B": 3257,
+        "C": 9916,
+        "D": 3598,
+        "E": 1120,
+        "F": 282,
+        "G": 51
+      },
+      "passoires_fg": 333,
+      "passoires_pct": 1.7,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "bobigny",
+    "nom": "Bobigny",
+    "insee": "93008",
+    "code_postal": "93000",
+    "codes_postaux_count": 1,
+    "code_departement": "93",
+    "departement": "Seine-Saint-Denis",
+    "region": "Île-de-France",
+    "population": 56927,
+    "ademe_qs": "code_insee_ban:93008",
+    "dpe_snapshot": {
+      "total": 11873,
+      "counts": {
+        "A": 14,
+        "B": 575,
+        "C": 4836,
+        "D": 4520,
+        "E": 1385,
+        "F": 306,
+        "G": 237
+      },
+      "passoires_fg": 543,
+      "passoires_pct": 4.6,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "meaux",
+    "nom": "Meaux",
+    "insee": "77284",
+    "code_postal": "77100",
+    "codes_postaux_count": 1,
+    "code_departement": "77",
+    "departement": "Seine-et-Marne",
+    "region": "Île-de-France",
+    "population": 56905,
+    "ademe_qs": "code_insee_ban:77284",
+    "dpe_snapshot": {
+      "total": 16463,
+      "counts": {
+        "A": 30,
+        "B": 1253,
+        "C": 5657,
+        "D": 6049,
+        "E": 2441,
+        "F": 684,
+        "G": 349
+      },
+      "passoires_fg": 1033,
+      "passoires_pct": 6.3,
+      "as_of": "2026-11-21"
+    }
+  },
+  {
+    "slug": "maisons-alfort",
+    "nom": "Maisons-Alfort",
+    "insee": "94046",
+    "code_postal": "94700",
+    "codes_postaux_count": 1,
+    "code_departement": "94",
+    "departement": "Val-de-Marne",
+    "region": "Île-de-France",
+    "population": 56799,
+    "ademe_qs": "code_insee_ban:94046",
+    "dpe_snapshot": {
+      "total": 20670,
+      "counts": {
+        "A": 35,
+        "B": 342,
+        "C": 4963,
+        "D": 6688,
+        "E": 5493,
+        "F": 2112,
+        "G": 1037
+      },
+      "passoires_fg": 3149,
+      "passoires_pct": 15.2,
+      "as_of": "2026-11-21"
+    }
+  }
+]
