@@ -21,6 +21,8 @@ API_WORKER_URL = "https://eu-public-intelligence-worker.eu-us-opendata-worker.wo
 FACTURKIT_URL = "https://yannabadie.github.io/facturkit-2027/"
 FACTURKIT_METIERS_URL = "https://yannabadie.github.io/facturkit-2027/metiers/"
 APIFY_PARTNER_URL = "https://apify.com/?fpr=zuvzfw"
+GUMROAD_CAHIER_FACTURX = "https://yannabadi.gumroad.com/l/facturx-2026-2027-cahier-pratique"
+GUMROAD_NOTION_FREELANCE = "https://yannabadi.gumroad.com/l/freelance-ei-france-2026-notion-cockpit"
 
 
 def fmt_int(n: int) -> str:
@@ -64,6 +66,41 @@ def render_footer(prefix: str) -> str:
   </footer>"""
 
 
+def render_pro_b2b_resources() -> str:
+    return f"""        <div class="pro-b2b-block" aria-label="Ressources Pro Artisans RGE, Diagnostiqueurs et API">
+          <h2 style="margin-top:30px;">Boîte à Outils Pro — Artisans RGE, Diagnostiqueurs &amp; API PropTech</h2>
+          <p class="section-sub">Ressources prêtes à l'emploi pour les artisans certifiés RGE, diagnostiqueurs DPE et équipes PropTech (achat immédiat Gumroad TVA gérée, ou intégration API JSON en direct).</p>
+          <div class="partner-grid">
+            <article class="partner-card">
+              <div>
+                <span class="badge-soft badge-pro">Cahier PDF 46 p. · 19 € · Gumroad</span>
+                <h3>Cahier Pratique Factur-X 2026–2027 (BTP &amp; RGE)</h3>
+                <p>Maîtrisez la réception obligatoire (en vigueur depuis le 01/09/2026), l'émission Factur-X 1.09.2 au 01/09/2027, la TVA 5,5 % rénovation énergétique, l'autoliquidation BTP et le choix de votre PA.</p>
+              </div>
+              <a class="btn-card" href="{GUMROAD_CAHIER_FACTURX}" target="_blank" rel="noopener noreferrer">Télécharger le Cahier Factur-X (19 €) →</a>
+            </article>
+
+            <article class="partner-card">
+              <div>
+                <span class="badge-soft badge-teal">Template Notion · 19 € · Gumroad</span>
+                <h3>Cockpit Freelance &amp; EI France 2026–2027</h3>
+                <p>Conçu pour artisans RGE indépendants et diagnostiqueurs immobiliers DPE : suivi CA &amp; chantiers, alertes seuils TVA 293 B, provisions URSSAF, registre PA et relances devis/factures.</p>
+              </div>
+              <a class="btn-card" href="{GUMROAD_NOTION_FREELANCE}" target="_blank" rel="noopener noreferrer">Dupliquer le Cockpit Notion (19 €) →</a>
+            </article>
+
+            <article class="partner-card">
+              <div>
+                <span class="badge-soft">API JSON Edge · Cloudflare Worker</span>
+                <h3>API ADEME DPE (<code>eu-public-intelligence-worker</code>)</h3>
+                <p>Interrogez <code>GET /v1/ademe-dpe</code> (flag <code>isThermalSieve</code> passoires F/G + BODACC + CRA + RTE Éco2mix) depuis vos scripts, n8n, SaaS PropTech ou agents IA.</p>
+              </div>
+              <a class="btn-card" href="{API_WORKER_URL}/" target="_blank" rel="noopener noreferrer">Inspecter l'API Worker LIVE →</a>
+            </article>
+          </div>
+        </div>"""
+
+
 def render_ecosystem_cta() -> str:
     return f"""        <div class="cta-dark">
           <div>
@@ -73,9 +110,11 @@ def render_ecosystem_cta() -> str:
             </p>
           </div>
           <div class="cta-actions">
-            <a class="btn-teal" href="https://github.com/yannabadie/observatoire-dpe-rge-france#écosystème--apis-développeurs-associés" target="_blank" rel="noopener">API ADEME DPE &amp; Open-Data →</a>
-            <a class="btn-white" href="{FACTURKIT_METIERS_URL}" target="_blank" rel="noopener">Artisans RGE : Guides Factur-X →</a>
-            <a class="btn-white" href="{APIFY_PARTNER_URL}" target="_blank" rel="noopener noreferrer sponsored">Actors Open-Data Apify →</a>
+            <a class="btn-teal" href="{API_WORKER_URL}/" target="_blank" rel="noopener">API ADEME DPE Live →</a>
+            <a class="btn-white" href="{GUMROAD_CAHIER_FACTURX}" target="_blank" rel="noopener noreferrer">Cahier Factur-X (19 €) →</a>
+            <a class="btn-white" href="{GUMROAD_NOTION_FREELANCE}" target="_blank" rel="noopener noreferrer">Cockpit Notion EI (19 €) →</a>
+            <a class="btn-white" href="{FACTURKIT_METIERS_URL}" target="_blank" rel="noopener">Guides BTP Gratuit →</a>
+            <a class="btn-white" href="{APIFY_PARTNER_URL}" target="_blank" rel="noopener noreferrer sponsored">Apify Open-Data →</a>
           </div>
         </div>"""
 
@@ -345,6 +384,7 @@ def build_city_page(v: dict, siblings: list[dict]) -> str:
 
         <h2 style="margin-top:30px;">Ressources officielles, aides &amp; partenaires rénovation</h2>
         <div id="partner-cards-mount" class="partner-grid"></div>
+{render_pro_b2b_resources()}
 {render_ecosystem_cta()}
       </div>
     </section>
@@ -477,6 +517,8 @@ def build_directory_page(villes: list[dict]) -> str:
         <div id="city-list" class="city-grid">
 {chr(10).join(cards)}
         </div>
+{render_pro_b2b_resources()}
+{render_ecosystem_cta()}
       </div>
     </section>
   </main>
@@ -770,6 +812,7 @@ def build_home_page(villes: list[dict]) -> str:
 
         <h2 style="margin-top:30px;">Aides publiques, rénovation &amp; ressources BTP</h2>
         <div id="partner-cards-mount" class="partner-grid"></div>
+{render_pro_b2b_resources()}
 {render_ecosystem_cta()}
       </div>
     </section>

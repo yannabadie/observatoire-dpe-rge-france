@@ -170,6 +170,12 @@ tr:last-child td { border-bottom: none; }
   display: inline-block; font-size: 0.74rem; font-weight: 700; padding: 3px 9px; border-radius: 999px;
   background: #eff6ff; color: #1d4ed8; border: 1px solid #bfdbfe;
 }
+.badge-soft.badge-pro {
+  background: #fef3c7; color: #92400e; border-color: #fde68a;
+}
+.badge-soft.badge-teal {
+  background: #f0fdfa; color: #0f766e; border-color: #99f6e4;
+}
 .btn-card {
   display: inline-block; text-align: center; text-decoration: none;
   background: var(--ink); color: #fff; padding: 9px 13px; border-radius: 8px; font-weight: 700; font-size: 0.86rem;
