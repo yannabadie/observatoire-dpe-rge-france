@@ -1,0 +1,21 @@
+# Observatoire ADEME DPE & Artisans RGE — 100 Villes de France
+
+> Portail open-data 100 % statique & côté navigateur (`0,00 EUR/mois`) explorant les Diagnostics de Performance Énergétique (DPE) ADEME et les artisans certifiés RGE dans les 100 plus grandes villes de France métropolitaine.
+
+## Accès Public Gratuit
+
+- [Observatoire National & Explorateur Live par Code Postal](https://yannabadie.github.io/observatoire-dpe-rge-france/): Statistiques ADEME A–G, part de passoires thermiques F/G et recherche en direct d'entreprises RGE.
+- [Annuaire des 100 Villes de France](https://yannabadie.github.io/observatoire-dpe-rge-france/villes/): Pages dédiées par commune avec données DPE officielles, calendrier Loi Climat & Résilience (2025/2028/2034) et annuaire RGE.
+- [Plan du Site XML (102 URLs)](https://yannabadie.github.io/observatoire-dpe-rge-france/sitemap.xml)
+
+## APIs, Extraction & Outils B2B Associés
+
+- [API ADEME DPE France sur RapidAPI Hub](https://rapidapi.com/YannAbadie/api/ademe-dpe-france-energy-ratings-api): API JSON normalisée (flag `isThermalSieve`, filtrage par code postal, commune et classe énergie).
+- [API Entreprises Françaises & DPE sur Apify Store](https://apify.com/?fpr=zuvzfw): Acteurs Pay-Per-Event pour l'extraction structurée SIRENE/RNE/BODACC/BOAMP.
+- [FacturKit 2027 — Guides Artisans BTP & Factur-X 2026–2027](https://yannabadie.github.io/facturkit-2027/metiers/): Outils hors-ligne gratuits et packs conformité BTP (`19 EUR` Cahier Pratique Factur-X / `19 EUR` Cockpit Notion EI France).
+
+## Sources Officielles (Zéro Clé API, Licence Ouverte v2.0)
+
+- ADEME Open Data (`dpe03existant`)
+- DINUM / INSEE Annuaire des Entreprises (`recherche-entreprises.api.gouv.fr?est_rge=true`)
+- IGN / Etalab API Découpage Administratif (`geo.api.gouv.fr`)
